@@ -70,7 +70,7 @@ find_products_info = {
             "keywords": {
                 "type": "array",
                 "items": {"type": "string"},
-                "description": None,  # 1. description을 적절한 내용으로 채우세요.
+                "description": "검색하고자 하는 키워드 리스트",  # 1. description을 적절한 내용으로 채우세요.
             },
         },
         "required": ["keywords"],
